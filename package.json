@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "test",
+    "test": "jest --watch",
     "webpack": "webpack -wd",
     "start": "nodemon --exec babel-node lib/server.js --watch"
   },
